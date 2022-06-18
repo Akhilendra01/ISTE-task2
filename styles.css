@@ -1,0 +1,128 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width:100%;
+    align-self: center;
+}
+.thumbnail{
+    width: 70%;
+    align-self: center;
+}
+.c1{
+    margin-top: 70px;
+    padding: 50px;
+}
+a{
+    font-size: large;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.icon{
+    width:30px;
+}
+.cnt1{
+    background: rgb(255, 208, 251);
+        background: linear-gradient(90deg, rgba(255, 208, 251, 1) 0%, rgba(255, 210, 253, 1) 50%, rgba(252, 193, 219, 1) 100%);
+}
+.explore{
+    border-radius: 4em;
+    background: none;
+    padding: 0.6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1em;
+    font-size: 1em;
+    color: white;
+    background-color: orangered;
+    border: none;
+    transition: background-color ease-out 0.5s;
+}
+.explore:hover{
+    color: white;
+    background-color: gray;
+}
+h3{
+    text-align: center;
+    margin: 1em;
+    text-decoration: underline;
+}
+.cnt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.1em;
+    border: 1px solid rgb(208, 205, 205);
+    margin: 0em;
+    transition: background-color ease-in 0.5s;
+}
+.cnt2:hover{
+    background-color: rgb(238, 230, 230);
+}
+.price{
+    font-family: monospace;
+    font-size: 1.2em;
+    color: rgb(59, 59, 124);
+    transition: font-size ease-in 0.2s;
+}
+.price:hover{
+    font-size: 1.5em;
+}
+.cnt3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 197, 246);
+}
+
+.sp{
+    width: 40%;
+}
+
+.cnt4{
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+}
+
+
+.dnlds{
+    color: black;
+    background-color: white;
+    width: 30%;
+    background-color: none;
+    border: 1px solid white;
+    margin: 1em;
+    transition: background-color ease-in 0.4s;
+    font-size: 12px;
+}
+.dnlds:hover{
+    background-color: rgb(240, 228, 228);
+}
+.cnt5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.cnt6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ulink{
+    text-decoration: none;
+    color: gray;
+}
+
+.timer{
+    background-color: rgb(8, 8, 69);
+    color: white;
+}
